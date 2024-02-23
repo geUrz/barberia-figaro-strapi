@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homebanner_pcs",
+  "info": {
+    "singularName": "homebanner-pc",
+    "pluralName": "homebanner-pcs",
+    "displayName": "Homebanner-pc",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homebanner_mobiles",
+  "info": {
+    "singularName": "homebanner-mobile",
+    "pluralName": "homebanner-mobiles",
+    "displayName": "Homebanner-mobile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
